@@ -1,0 +1,8 @@
+[metadata]
+name = eink-gateway-cli
+version = 1.0.0
+author = "Marek Lukáš"
+author_email = "marek.lukas.st@vsb.cz"
+
+[options]
+zip_safe = True
