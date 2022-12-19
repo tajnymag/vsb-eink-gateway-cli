@@ -1,0 +1,5 @@
+# IDE
+.idea/
+
+# python temp files
+__pycache__
