@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import sys
 from base64 import b64encode
@@ -76,7 +78,7 @@ def update_config(args):
     print(response)
 
 
-if __name__ == '__main__':
+def main():
     main_parser = ArgumentParser(prog='eink-gateway-cli')
     main_parser.add_argument('--api-key', default=os.environ.get('EINK_GATEWAY_API_KEY'))
     main_parser.add_argument('--api-url', default=os.environ.get('EINK_GATEWAY_API_URL'))
@@ -132,3 +134,8 @@ if __name__ == '__main__':
         exit(1)
 
     args.func(args)
+
+
+if __name__ == '__main__':
+    main()
+

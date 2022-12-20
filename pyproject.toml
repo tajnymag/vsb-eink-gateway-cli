@@ -1,8 +1,0 @@
-[project]
-name = "eink-gateway-cli"
-version = "1.0.0"
-authors = [
-    { name = "Marek Lukáš", email = "marek.lukas.st@vsb.cz" }
-]
-readme = "README.md"
-requires-python = ">=3.10"
