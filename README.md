@@ -1,4 +1,4 @@
-# VŠB E-Ink Gateway API CLI
+# VŠB E-Ink - Gateway API CLI
 
 Trivial CLI wrapper around the VŠB E-Ink Gateway API. It is intended to be used as a simple way to send messages to the E-Ink displays before the final API is ready.
 
